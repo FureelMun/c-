@@ -1,0 +1,91 @@
+#include <windows.h>
+#include <iostream>
+#include <cmath> 
+using namespace std;
+
+int main()
+{
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    setlocale(LC_ALL, "Russian");
+    bool online = true;
+    while (online)
+    {
+        int if_online;
+        cout << "Продолжаем?";
+        cin >> if_online;
+        if (if_online == 1) {
+            int funkshion;
+            std::cout << "1- сложение\n";
+            std::cout << "2 - вычитание\n";
+            std::cout << "3 - Частное \n";
+            std::cout << "4 - Произвденеи \n";
+            std::cout << "5 - Возведение в степень\n";
+            std::cout << "6 - Нахождения квадратного корня\n";
+            std::cout << "7 - Нахождение 1 процента от числа\n";
+            std::cout << "8 - Найти факториал числа\n";
+            cout << "Выбери функцию?";
+            cin >> funkshion;
+            int a, b;
+            long float c;
+            if (funkshion == 1 or funkshion == 2 or funkshion == 3 or funkshion == 4 or funkshion == 5) {
+                cout << "Введите первое число: ";
+                cin >> a;
+                cout << "Введите второе число: ";
+                cin >> b;
+            }
+            else if (funkshion == 6 or funkshion == 7 or funkshion == 8) {
+                cout << "Введите число: ";
+                cin >> a;
+            }
+            switch (funkshion) {
+            case 1:
+                c = a + b;
+                cout << "Сумма чисел = " << c << endl;
+                break;
+            case 2:
+                c = a - b;
+                cout << "Разность чисел = " << c << endl;
+                break;
+            case 3:
+                c = a / b;
+                cout << "Частное чисел = " << c << endl;
+                break;
+            case 4:
+                c = a * b;
+                cout << "Произведение чисел = " << c << endl;
+                break;
+
+            case 5:
+                c = pow(a, b);
+                cout << "Число " << a <<" в степени " << b << "равно " << c << endl;
+                break;
+            case 6:
+                c = sqrt(a);
+                cout << "Квадратный корень числа числа равен = " << c << endl;
+                break;
+            case 7:
+                c = a / 100;
+                cout << "1 процента от числа равен = " << c << endl;
+                break;
+            case 8:
+                do {
+                    c = a * a;
+                    a--;
+                } while (a == 0);
+                cout << "Факториал числа равен = " << c << endl;
+                break;
+            default:      
+                std::cout << "Такой функции нет\n";
+                break;
+            }
+        }
+        else
+        {
+            std::cout << "Пока \n";
+            online = false;
+        }
+    }
+   
+    return 0;
+}
