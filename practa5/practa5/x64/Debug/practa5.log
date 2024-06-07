@@ -1,0 +1,33 @@
+﻿  practa5.cpp
+C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(202,9): error C2360: пропуск инициализации "accountTo" из-за метки "case"
+  C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(174,26):
+   см. объявление "accountTo"
+  
+C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(202,9): error C2360: пропуск инициализации "accountFrom" из-за метки "case"
+  C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(173,26):
+   см. объявление "accountFrom"
+  
+C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(202,9): error C2360: пропуск инициализации "foundTo" из-за метки "case"
+  C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(171,18):
+   см. объявление "foundTo"
+  
+C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(202,9): error C2360: пропуск инициализации "foundFrom" из-за метки "case"
+  C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(170,18):
+   см. объявление "foundFrom"
+  
+C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(207,9): error C2361: пропуск инициализации "accountTo" из-за метки "default"
+  C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(174,26):
+   см. объявление "accountTo"
+  
+C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(207,9): error C2361: пропуск инициализации "accountFrom" из-за метки "default"
+  C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(173,26):
+   см. объявление "accountFrom"
+  
+C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(207,9): error C2361: пропуск инициализации "foundTo" из-за метки "default"
+  C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(171,18):
+   см. объявление "foundTo"
+  
+C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(207,9): error C2361: пропуск инициализации "foundFrom" из-за метки "default"
+  C:\Users\Елизавета\source\repos\practa5\practa5\practa5.cpp(170,18):
+   см. объявление "foundFrom"
+  
